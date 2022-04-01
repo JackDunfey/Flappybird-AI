@@ -1,0 +1,67 @@
+.neon{
+    box-shadow: 0px 0px 10px #2196f3, 0px 0px 40px #2196f3, 0px 0px 40px #2196f3;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+canvas{
+    position: absolute;
+    transform: translate(50%,-50%);
+    top: 50%;
+    right: 25%;
+}
+#btn{
+    width: 300px;
+    font: 1.5em "Montserrat","Roboto", sans-serif;
+    border: none;
+    background: #0ff;
+    height: 51px;
+    margin-right: 100%;
+}
+a{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+}
+#btn:focus{
+    outline: none;
+}
+p:first-of-type:not(:first-child){
+    margin-top: 20px;
+}
+#txt-stuff{
+    float: left;
+    /* width: 50%; */
+    text-shadow: 0px 0px 5px #2196f3;
+    padding: 10px 0px 5px 10px;
+}
+p{
+    text-indent: 10px;
+    font-size: 1em;
+    color: #14b3f3;
+}
+#gen::before{
+    content: "Generation: ";
+}
+#weights::before{
+    content: "Genes: ";
+}
+#score::before{
+    content: "Score: ";
+}
+#birds::before{
+    content: "Number Of Birds: ";
+}
+#btndiv{
+    position: relative;
+    height: 81px;
+}
+#ediv{
+    width: 45%;
+}
